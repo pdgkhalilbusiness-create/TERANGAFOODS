@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#FFF7ED;
+    color:#1C1917;
+}
+
+header{
+    background:#7C2D12;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.djambar{
+    font-size:28px;
+    font-weight:bold;
+    font-family:'Playfair Display', serif;
+    background-image: url(/images/thi);
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.dakar{
+    height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    ;
+}
+
+.dakar-contenu{
+    background:rgba(0,0,0,0.5);
+    padding:40px;
+    border-radius:15px;
+    background-image: url(/images/thiéboudienne.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.dakar h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.dakar p{
+    margin-bottom:25px;
+}
+
+.xam{
+    background:#D97706;
+    color:white;
+    padding:12px 24px;
+    border-radius:30px;
+    text-decoration:none;
+    margin:10px;
+    display:inline-block;
+}
+
+.dibi{
+    background:#FBBF24;
+    color:#1C1917;
+}
+
+.thiossane,
+.ndogou,
+.ceep,
+.gorée,
+.wolof,
+.ngor,
+.sabar,
+.ndiaganiao,
+.yeurmande{
+    padding:80px 8%;
+}
+
+.gorée{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+    min-height:500px;
+}
+
+.gorée-texte{
+    max-width:560px;
+}
+
+.gorée-texte h1{
+    margin-bottom:20px;
+    font-size:48px;
+    line-height:1.05;
+}
+
+.gorée-texte p{
+    margin-bottom:20px;
+    line-height:1.8;
+    color:#3B3028;
+}
+
+.gorée-image{
+    min-height:420px;
+    border-radius:25px;
+    background:url('../images/restaurant.jpg') center/cover no-repeat;
+    box-shadow:0 18px 40px rgba(0,0,0,0.15);
+}
+
+.wolof h2,
+.ngor h2{
+    margin-bottom:25px;
+}
+
+.wolof p{
+    margin-bottom:20px;
+    line-height:1.8;
+}
+
+.ngor-items{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.ngor-carte{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 10px 22px rgba(0,0,0,0.08);
+}
+
+.ngor-carte h3{
+    margin-bottom:15px;
+    color:#7C2D12;
+}
+
+.ngor-carte p{
+    line-height:1.75;
+}
+
+.thiossane-liste{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.thiossane-ndiaye,
+.yeurmande-carte{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.07);
+}
+
+.thiossane-ndiaye h3,
+.yeurmande-carte h3{
+    color:#7C2D12;
+    margin-bottom:15px;
+}
+
+.yeurmande-kat{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
+
+.thiebou{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.mbaye{
+    margin-bottom:60px;
+}
+
+.mbaye h2{
+    color:#7C2D12;
+    font-size:32px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.dieune{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    padding-bottom:20px;
+}
+
+.dieune img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.dieune h3,
+.dieune p,
+.dieune span{
+    padding:10px 20px;
+}
+
+.dieune button{
+    margin-left:20px;
+    padding:10px 20px;
+    border:none;
+    background:#D97706;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.sabar-grille{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.laobé{
+    min-height:340px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:url('../images/restaurant.jpg') center/cover no-repeat;
+    position:relative;
+    color:white;
+}
+
+.laobé::after{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.45);
+}
+
+.laobé-contenu{
+    position:relative;
+    max-width:760px;
+    padding:40px 20px;
+}
+
+.laobé h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.laobé p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+.sabar-grille-section{
+    padding-top:60px;
+}
+
+.sabar-grille{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.sabar-grille figure{
+    overflow:hidden;
+    border-radius:20px;
+    background:white;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    margin:0;
+}
+
+.sabar-grille img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+}
+
+.sabar-grille figcaption{
+    padding:18px 16px;
+    font-weight:600;
+    color:#1C1917;
+    background:#fff;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    max-width:600px;
+}
+
+input,
+textarea{
+    padding:15px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+form button{
+    padding:15px;
+    border:none;
+    background:#D97706;
+    color:white;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+footer{
+    background:#7C2D12;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+
+.rewmi{
+    margin:15px 0;
+}
+
+.rewmi a{
+    color:#FBBF24;
+    margin:0 10px;
+    text-decoration:none;
+}
+
+@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .dakar h1{
+        font-size:38px;
+    }
+
+    .sabar-grille{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:500px){
+
+    .sabar-grille{
+        grid-template-columns:1fr;
+    }
+
+    .dakar h1{
+        font-size:30px;
+    }
+
+}
